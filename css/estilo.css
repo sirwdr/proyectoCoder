@@ -30,7 +30,35 @@ h3 {
     text-align: center !important;
 }
 
+.input {
+    margin: 2px 20px;
+    display: block;
+}
 
+.estilo-input {
+    margin: 5px 10px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #dad1e2;
+}
+
+.contenedor-formulario {
+    display:block;
+    width: 700px;
+    height: 400px;
+    border:black 2px solid;
+    margin: 30px auto;
+    
+}
+
+.textarea {
+    margin: 5px 10px;
+    border-radius: 10px;
+    background-color: #dad1e2;
+    width: 400px;
+    height: 200px;
+    border: black 2px solid;
+}
 @keyframes banner {
     0%, 48%{
         background-image: url(../img/banner_1.webp);
